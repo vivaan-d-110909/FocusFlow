@@ -1,0 +1,13 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Databases
+data/*.db
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
