@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FocusFlow ⏱️</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>FocusFlow ⏱️</h1>
+    <p class="subtitle">Your AI Productivity Coach</p>
+
+    <div class="timer">
+      <span id="minutes">25</span>:<span id="seconds">00</span>
+    </div>
+
+    <div class="buttons">
+      <button id="startBtn">Start</button>
+      <button id="pauseBtn">Pause</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+
+    <div class="task-section">
+      <h2>Tasks</h2>
+      <div class="task-input">
+        <input type="text" id="taskInput" placeholder="Add a new task..." />
+        <button id="addTaskBtn">Add</button>
+      </div>
+      <ul id="taskList"></ul>
+    </div>
+
+    <div class="ai-section">
+      <h2>AI Focus Feedback</h2>
+      <button id="getFeedbackBtn">Get AI Feedback</button>
+      <p id="aiFeedback"></p>
+    </div>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
